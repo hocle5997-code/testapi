@@ -1,4 +1,37 @@
-{
-    "name": "Hoc Le",
-    "age": 21
-}
+[
+  {
+    "id": 1,
+    "name": "Nguyễn Văn An",
+    "age": 21,
+    "gender": "Nam",
+    "email": "an.nguyen@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Trần Thị Bình",
+    "age": 23,
+    "gender": "Nữ",
+    "email": "binh.tran@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Lê Minh Hoàng",
+    "age": 20,
+    "gender": "Nam",
+    "email": "hoang.le@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Phạm Thu Hà",
+    "age": 22,
+    "gender": "Nữ",
+    "email": "ha.pham@example.com"
+  },
+  {
+    "id": 5,
+    "name": "Đỗ Quốc Huy",
+    "age": 24,
+    "gender": "Nam",
+    "email": "huy.do@example.com"
+  }
+]
