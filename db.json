@@ -1,39 +1,81 @@
 {
-  users[
-  {
-    "id": 1,
-    "name": "Nguyễn Văn An",
-    "age": 21,
-    "gender": "Nam",
-    "email": "an.nguyen@example.com"
-  },
-  {
-    "id": 2,
-    "name": "Trần Thị Bình",
-    "age": 23,
-    "gender": "Nữ",
-    "email": "binh.tran@example.com"
-  },
-  {
-    "id": 3,
-    "name": "Lê Minh Hoàng",
-    "age": 20,
-    "gender": "Nam",
-    "email": "hoang.le@example.com"
-  },
-  {
-    "id": 4,
-    "name": "Phạm Thu Hà",
-    "age": 22,
-    "gender": "Nữ",
-    "email": "ha.pham@example.com"
-  },
-  {
-    "id": 5,
-    "name": "Đỗ Quốc Huy",
-    "age": 24,
-    "gender": "Nam",
-    "email": "huy.do@example.com"
-  }
-]
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn An",
+      "email": "nguyenvanan@gmail.com",
+      "phone": "0901234567",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "dateOfBirth": "2002-05-15"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị Bình",
+      "email": "tranthibinh@gmail.com",
+      "phone": "0912345678",
+      "avatar": "https://i.pravatar.cc/150?img=2",
+      "dateOfBirth": "2001-08-20"
+    },
+    {
+      "id": 3,
+      "name": "Lê Minh Hoàng",
+      "email": "leminhhoang@gmail.com",
+      "phone": "0923456789",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "dateOfBirth": "2000-11-10"
+    },
+    {
+      "id": 4,
+      "name": "Phạm Thu Hà",
+      "email": "phamthuha@gmail.com",
+      "phone": "0934567890",
+      "avatar": "https://i.pravatar.cc/150?img=4",
+      "dateOfBirth": "2003-02-18"
+    },
+    {
+      "id": 5,
+      "name": "Đỗ Quốc Huy",
+      "email": "doquochuy@gmail.com",
+      "phone": "0945678901",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "dateOfBirth": "2002-09-30"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "username": "nguyenvanan",
+      "password": "An@123456",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "username": "tranthibinh",
+      "password": "Binh@123456",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "username": "leminhhoang",
+      "password": "Hoang@123456",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "username": "phamthuha",
+      "password": "Ha@123456",
+      "status": "inactive"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "username": "doquochuy",
+      "password": "Huy@123456",
+      "status": "active"
+    }
+  ]
 }
